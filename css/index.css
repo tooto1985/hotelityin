@@ -1,0 +1,108 @@
+body {
+	margin:0;
+}
+
+.header {
+	height: 65px;
+	background-color: rgba(75,36,89,0.85);
+	position:fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.header>div {
+	width: 910px;
+	height:65px;
+	margin:0 auto;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	width: 191px;
+	height: 42px;
+	margin-top: 12px;
+}
+
+.content {
+
+}
+
+.content>.up {
+	width:100%;
+	position: relative;
+}
+
+.content>.up>img {
+	width: 100%;
+}
+
+.content>.up>div {
+    position: absolute;
+    top: 0;
+}
+
+.tip {
+	margin:74px 0;
+	text-align: center;
+}
+
+.tips1,.tips2 {
+	margin-right: 80px;
+}
+
+.tips1,.tips2,.tips3 {
+	width: 273px;
+	height: 273px;
+
+}
+
+.content>.down {
+	width:100%;
+	position: relative;
+}
+
+.content>.down>img {
+	width: 100%;
+}
+
+.content>.down>div {
+    position: absolute;
+    top: 0;
+}
+
+.features {
+	height: 375px;
+}
+
+
+.prime {
+	text-align: center;
+}
+
+.prime1,.prime2 {
+	margin-right: 30px;
+}
+
+.prime1,.prime2,.prime3 {
+	width: 320px;
+	height: 230px;
+
+}
+
+.primetext {
+	height: 255px;
+}
+
+.footer {
+	width:100%;
+	position: relative;
+}
+
+.footer>img {
+	width: 100%;
+}
+
+.footer>div {
+    position: absolute;
+    top: 0;
+}
