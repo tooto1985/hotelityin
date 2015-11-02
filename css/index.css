@@ -1,3 +1,7 @@
+* {
+	font-family:arial,微軟正黑體;
+}
+
 body {
 	margin:0;
 }
@@ -16,11 +20,24 @@ body {
 	margin:0 auto;
 }
 
-.logo {
+.header>div>.logo {
 	background-image: url(../images/logo.png);
 	width: 191px;
 	height: 42px;
 	margin-top: 12px;
+}
+
+.header>div>.menu {
+	float:right;
+	margin-top: -32px;
+	margin-right: 1px;
+	letter-spacing: 1px;
+}
+
+.header>div>.menu>a {
+	color:white;
+	text-decoration: none;
+	margin-left: 96px;
 }
 
 .content {
@@ -38,7 +55,47 @@ body {
 
 .content>.up>div {
     position: absolute;
-    top: 0;
+    top: 26%;
+    left: 54%;
+}
+
+.content>.up>div>.label {
+	text-align: center;
+}
+
+.content>.up>div>.label>span {
+	font-size: 38px;
+	font-weight: bold;
+	color: #4b2459;
+}
+
+.content>.up>div>.label>span:first-child {
+	margin-left: -15px;
+}
+
+.content>.up>div>.label>span.spline {
+	margin-left: 7px;
+	margin-right: 10px;
+	color: white;
+}
+
+.content>.up>div>.text {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	width: 400px;
+	line-height: 43px;
+	letter-spacing: 0.01em;
+}
+
+.content>.up>div>.button {
+	margin-top: 39px;
+	margin-left: -2px;
+	width: 408px;
+} 
+
+.content>.up>div>.button>a:first-child {
+	margin-right: 43px;
 }
 
 .tip {
@@ -100,6 +157,7 @@ body {
 
 .footer>img {
 	width: 100%;
+	vertical-align: bottom;
 }
 
 .footer>div {
