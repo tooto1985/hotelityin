@@ -41,6 +41,17 @@ body {
     color: white;
     text-decoration: none;
     margin-left: 96px;
+    position: relative;
+}
+
+.header>div>.menu>a:hover:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    background-image: url(../images/headline.png);
+    top: 21px;
+    left: 14px;
 }
 
 .content {
@@ -104,9 +115,30 @@ body {
 .content>.up>div>.button>a:first-child {
     
     margin-right: 43px;
+
 }
 
+.content>.up>div>.button>a:first-child:before {
+    content: "示範案例";
+    position: absolute;
+    color: white;
+    width: 180px;
+    text-align: center;
+    height: 43px;
+    line-height: 43px;
+    font-size: 19px;
+}
 
+.content>.up>div>.button>a:last-child:before {
+    content: "產品導覽";
+    position: absolute;
+    color: white;
+    width: 180px;
+    text-align: center;
+    height: 43px;
+    line-height: 43px;
+    font-size: 19px;
+}
 
 .tip {
     margin: 74px 0;
@@ -124,22 +156,22 @@ body {
 }
 
 .tips1.show {
-	transition: .4s;
-	
+    transition: .4s;
+
 }
 
 .tips2.show {
-	transition: .4s .2s;
-	
+    transition: .4s .2s;
+
 }
 
 .tips3.show {
-	transition: .4s .4s;
-	
+    transition: .4s .4s;
+
 }
 
 .show {
-	transform: scale(1);
+    transform: scale(1);
 }
 
 
@@ -244,7 +276,6 @@ body {
 }
 
 .features>.text>.icon>span {
-    
     font-size: 18px;
     position: relative;
     margin-top: -33px;
@@ -275,11 +306,10 @@ body {
 }
 
 .primetext>div {
-	/* background-color: pink; */
-	width: 320px;
-	height: 255px;
-	margin-right: 30px;
-	display: inline-block;
+    width: 320px;
+    height: 255px;
+    margin-right: 30px;
+    display: inline-block;
 }
 
 .primetext>div:last-child {
@@ -287,12 +317,23 @@ body {
 }
 
 .primetext>div>.label {
-
-font-size: 24px;text-align: left;margin-top: 31px;/* margin-left: 14px; */letter-spacing: 1px;font-weight: bold;color: #4b2459;}
+    font-size: 24px;
+    text-align: left;
+    margin-top: 31px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #4b2459;
+}
 
 .primetext>div>.text {
-
-margin-top: 18px;line-height: 32px;text-align: left;letter-spacing: 2px;position: absolute;width: 320px;}
+    
+    margin-top: 18px;
+    line-height: 32px;
+    text-align: left;
+    letter-spacing: 2px;
+    position: absolute;
+    width: 320px;
+}
 
 .footer {
     width: 100%;
@@ -307,4 +348,68 @@ margin-top: 18px;line-height: 32px;text-align: left;letter-spacing: 2px;position
 .footer>div {
     position: absolute;
     top: 0;
+    width: 100%;
+}
+
+.footer>div>.logo {
+    background-image: url(../images/logo_copyright.png);
+    width: 147px;
+    height: 64px;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+.footer>div>.logotext {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 11px;
+    letter-spacing: 0.5px;
+}
+
+.footer>div>.address {
+    width: 971px;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-top: 13px;
+    line-height: 19px;
+}
+
+.footer>div>.address:before {
+    content: '';
+    background-image: url(../images/adress.png);
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    margin-left: -21px;
+}
+
+.footer>div>.copyright {
+    width: 1015px;
+    margin: 0 auto;
+    margin-top: 16px;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.footer>div>.copyright>.left {
+    letter-spacing: 0.89px;
+    float:left
+}
+
+.footer>div>.copyright>.right {
+    float:right;
+    margin-right: 9px;
+}
+
+.footer>div>.copyright>.right>a {
+    color:white;
+    text-decoration:none;
+}
+
+.footer>div>.copyright>.right>span {
+    margin: 0 44px;
 }
