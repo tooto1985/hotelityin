@@ -120,8 +120,28 @@ body {
 .tips1,.tips2,.tips3 {
     width: 273px;
     height: 273px;
-
+    transform: scale(0);
 }
+
+.tips1.show {
+	transition: .4s;
+	
+}
+
+.tips2.show {
+	transition: .4s .2s;
+	
+}
+
+.tips3.show {
+	transition: .4s .4s;
+	
+}
+
+.show {
+	transform: scale(1);
+}
+
 
 .content>.down {
     width: 100%;
