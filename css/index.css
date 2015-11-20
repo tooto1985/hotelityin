@@ -113,17 +113,23 @@ body {
 }
 
 .content>.up>div>.button>a {
+    position: absolute;
+    color: white;
     width: 180px;
+    text-align: center;
     height: 43px;
-    display: inline;
+    line-height: 43px;
+    font-size: 19px;
+    background-image: url(../images/icon2.png);
+    text-decoration: none;
 }
 
 .content>.up>div>.button>a:first-child {
-    
-    margin-right: 43px;
+    right: 0;
+    background-image: url(../images/icon1.png);
 
 }
-
+/*
 .content>.up>div>.button>a:first-child:before {
     content: "示範案例";
     position: absolute;
@@ -145,7 +151,7 @@ body {
     line-height: 43px;
     font-size: 19px;
 }
-
+*/
 .tip {
     margin: 74px 0;
     text-align: center;
