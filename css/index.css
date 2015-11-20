@@ -1,7 +1,6 @@
 @charset "UTF-8";
-
 * {
-    font-family: arial,'微軟正黑體';
+    font-family: arial, '微軟正黑體';
 }
 
 body {
@@ -11,7 +10,7 @@ body {
 
 .header {
     height: 65px;
-    background-color: rgba(75,36,89,0.85);
+    background-color: rgba(75, 36, 89, 0.85);
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -54,9 +53,7 @@ body {
     left: 14px;
 }
 
-.content {
-
-}
+.content {}
 
 .content>.up {
     width: 100%;
@@ -104,11 +101,8 @@ body {
 }
 
 .content>.up>div>.button {
-    
     margin-top: 39px;
-    
     margin-left: -2px;
-    
     width: 408px;
 }
 
@@ -127,41 +121,21 @@ body {
 .content>.up>div>.button>a:first-child {
     right: 0;
     background-image: url(../images/icon1.png);
-
-}
-/*
-.content>.up>div>.button>a:first-child:before {
-    content: "示範案例";
-    position: absolute;
-    color: white;
-    width: 180px;
-    text-align: center;
-    height: 43px;
-    line-height: 43px;
-    font-size: 19px;
 }
 
-.content>.up>div>.button>a:last-child:before {
-    content: "產品導覽";
-    position: absolute;
-    color: white;
-    width: 180px;
-    text-align: center;
-    height: 43px;
-    line-height: 43px;
-    font-size: 19px;
-}
-*/
 .tip {
     margin: 74px 0;
     text-align: center;
 }
 
-.tips1,.tips2 {
+.tips1,
+.tips2 {
     margin-right: 80px;
 }
 
-.tips1,.tips2,.tips3 {
+.tips1,
+.tips2,
+.tips3 {
     width: 273px;
     height: 273px;
     transform: scale(0);
@@ -169,23 +143,19 @@ body {
 
 .tips1.show {
     transition: .4s;
-
 }
 
 .tips2.show {
     transition: .4s .2s;
-
 }
 
 .tips3.show {
     transition: .4s .4s;
-
 }
 
 .show {
     transform: scale(1);
 }
-
 
 .content>.down {
     width: 100%;
@@ -212,22 +182,14 @@ body {
 }
 
 .content>.down>div>.text {
-    
     font-size: 18px;
-    
     width: 801px;
-    
     margin: 0 auto;
-    
     color: white;
-    
     margin-top: 16px;
-    
     line-height: 43px;
-    
     letter-spacing: 1px;
 }
-
 
 .features {
     height: 375px;
@@ -236,19 +198,12 @@ body {
 }
 
 .features>.label {
-    
     width: 100%;
-    
     text-align: center;
-    
     font-size: 26px;
-    
     color: #4b2459;
-    
     font-weight: bold;
-    
     margin-top: 72px;
-    
     position: absolute;
 }
 
@@ -272,18 +227,13 @@ body {
 }
 
 .features>.text>.icon:nth-child(3n+2) {
-    
     width: 323px;
-    
     margin-left: 38px;
 }
 
 .features>.text>.icon:nth-child(3n+3) {
-    
     width: 270px;
-    
     margin-right: 0;
-    
     margin-left: 10px;
 }
 
@@ -296,20 +246,21 @@ body {
     letter-spacing: 1px;
 }
 
-
 .prime {
     text-align: center;
     height: 230px;
 }
 
-.prime1,.prime2 {
+.prime1,
+.prime2 {
     margin-right: 30px;
 }
 
-.prime1,.prime2,.prime3 {
+.prime1,
+.prime2,
+.prime3 {
     width: 320px;
     height: 230px;
-
 }
 
 .primetext {
@@ -338,7 +289,6 @@ body {
 }
 
 .primetext>div>.text {
-    
     margin-top: 18px;
     line-height: 32px;
     text-align: left;
@@ -404,22 +354,21 @@ body {
     margin-top: 16px;
     color: white;
     font-size: 12px;
-    
 }
 
 .footer>div>.copyright>.left {
     letter-spacing: 0.89px;
-    float:left
+    float: left
 }
 
 .footer>div>.copyright>.right {
-    float:right;
+    float: right;
     margin-right: 9px;
 }
 
 .footer>div>.copyright>.right>a {
-    color:white;
-    text-decoration:none;
+    color: white;
+    text-decoration: none;
 }
 
 .footer>div>.copyright>.right>span {
