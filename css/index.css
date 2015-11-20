@@ -112,6 +112,12 @@ body {
     width: 408px;
 }
 
+.content>.up>div>.button>a {
+    width: 180px;
+    height: 43px;
+    display: block;
+}
+
 .content>.up>div>.button>a:first-child {
     
     margin-right: 43px;
