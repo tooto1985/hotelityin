@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.content>.up {
+    width: 100%;
+    position: relative;
+}
+
+.content>.up>img {
+    width: 100%;
+}
+
+.content>.up>div {
+    position: absolute;
+    top: 26%;
+    left: 54%;
+}
+
+.content>.up>div>.title1 {
+	font-weight: bold;
+	font-size: 34px;
+	color: #4b2459;
+	margin-top: 150px;
+}
+
+.content>.up>div>.content1 {
+	font-family: arial,微軟正黑體;
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+	width: 428px;
+	margin-top: 10px;
+	line-height: 40px;
+}
+
+.top {
+	text-align: center;
+}
+
+.tip>div {
+	display: inline-block;
+	font-family: arial,微軟正黑體;
+	font-weight: bold;
+	font-size: 18px;
+	color: #4b2459;
+	margin-right: 97px;
+}
+
+.tip>div:last-child {
+	margin-right: 0;
+}
+
+.tip>div>div {
+	margin-top: 19px;
+}
+
+.keyfeatures {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 25px;
+	color: #4b2459;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 80px;
+}
+
+.keyfeatures2 {
+	margin:0 auto;
+	width: 1003px;
+	height: 557px;
+	position: relative;
+}
+
+.keyfeatures2 .tt {
+	position: absolute;
+	width: 197px;
+	text-align: center;
+}
+
+.keyfeatures2 .t1 {
+	top: 110px;
+}
+
+.keyfeatures2 .t2 {
+	top: 310px;
+}
+
+.keyfeatures2 .t3 {
+	top: 510px;
+}
+
+.bg{
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.bgt1 {
+	font-family: arial,微軟正黑體;
+	font-weight: bold;
+	font-size: 34px;
+	color: #dfb858;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 66px;
+}
+
+.bgc1 {
+	font-family: arial,微軟正黑體;
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+	position: absolute;
+	width: 100%;
+	top: 138px;
+}
+
+.bgc1>div {
+	line-height: 45px;
+	width: 918px;
+	margin: 0 auto;
+}
